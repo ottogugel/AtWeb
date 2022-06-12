@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AT Website - Cotação</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body onload="load()">
+        <h1 class="title">AT Website - Cotação</h1>
+
+    <div class="principal">
+    <p><a href="index.html" target="_blank">Home</p></a>
+    <p><a href="#" target="_blank">Cotação</p></a>
+    <p><a href="piadas.html" target="_blank">Piadas</p></a>
+  </div>
+
+  <div class="btc_moeda">
+    <h1>Bitcoin hoje</h1>
+  </div>
+
+  <br />
+  <div id="btc_cotacao">
+    <span class="btc_cotacao_estrangeira">
+      <span class="btc_symbol">฿</span>
+        <input type="text" id="estrangeiro" value="1,00" style="width: 2.3em;">
+    </span>
+    <span class="optional">custa</span>
+    <span class="nacional_cotacao">
+    <span class="symbol">R$</span>
+      <input type="text" id="nacional" value="143252,30" style="width: 5.55em;">
+      </span>
+    <span class="optional">hoje</span>
+  </div>
+
+  </body>
+
+  <script src="assets/js/cotacao.js"></script>
+</html>

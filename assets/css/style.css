@@ -1,0 +1,72 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.endereco_i {
+  display: flex;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+.endereco_i2 {
+  display: flex;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+.formulario_endereco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btc_moeda {
+  display: flex;
+  justify-content: center;
+  background: transparent url(/assets/img/icon-bitcoin.gif) no-repeat center;
+  background-size: 122px;
+  height: 122px;
+  margin-right: auto;
+  text-indent: -9999px;
+}
+
+#btc_cotacao {
+  display: flex;
+  justify-content: center;
+}
+
+.optional {
+  margin: 10px;
+}
+
+div.piadas_alt {
+  display: flex;
+  justify-content: center;
+}
+
+div.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 3.5rem;
+}
+
+input[type='submit'] {
+  padding: 15px 30px;
+  border-radius: 5.5px;
+}
+
+div.gerarpiada {
+  outline: 15px solid rgb(110, 104, 104);
+  height: 20vh;
+  width: 35%;
+  margin: 0 auto;
+}

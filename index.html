@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AT Website</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      let endereco = [
+        {
+          cep: '01001-000',
+          logradouro: 'Praça da Sé',
+          complemento: 'lado ímpar',
+          bairro: 'Sé',
+          localidade: 'São Paulo',
+          uf: 'SP',
+          ibge: '3550308',
+          gia: '1004',
+          ddd: '11',
+          siafi: '7107'
+        }
+      ]
+
+      console.log(endereco)
+    </script>
+
+    <h1 class="title">AT Website</h1>
+
+    <div class="principal">
+    <p><a href="#">Home</p></a>
+    <p><a href="cotacao.html" target="_blank">Cotação</p></a>
+    <p><a href="piadas.html" target="_blank">Piadas</p></a>
+  </div>
+
+    <br />
+    <form class="formulario_endereco">
+      <label class="cep_i" for="cep">CEP:</label>
+      <input class="endereco_i"type="text" name="endereco_completo" id="cep" />
+      <br />
+
+      <br />
+      <label for="endereco_completo">Endereço</label>
+      <input class="endereco_i2"type="text" name="endereco_completo" id="endereco" />
+      <br />
+
+      <br />
+      <label for="endereco_completo">Número</label>
+      <input class="endereco_i2"type="text" name="endereco_completo" id="numero" />
+      <br />
+
+      <br />
+      <label for="endereco_completo">Bairro</label>
+      <input class="endereco_i2"type="text" name="endereco_completo" id="bairro" />
+      <br />
+
+      <br />
+      <label for="endereco_completo">Cidade</label>
+      <input class="endereco_i2"type="text" name="endereco_completo" id="cidade" />
+      <br />
+
+      <br />
+      <label for="endereco_completo">Estado</label>
+      <input class="endereco_i2"type="text" name="endereco_completo" id="estado" />
+      <br />
+
+      <br />
+      <button type="submit">Buscar</button>
+    </form>
+  </body>
+
+  <script src="assets/js/script.js"></script>
+</html>
